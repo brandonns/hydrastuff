@@ -1,0 +1,7 @@
+osc(7,.123)
+  .modulate(noise(7),.222)
+  .diff(o0)
+  .modulateScrollY(osc(3)
+  .modulate(osc().rotate(),.123))
+  .scale(.69).color(1.0352941176470589,0.45098039215686275,0.5254901960784314)
+.out()
