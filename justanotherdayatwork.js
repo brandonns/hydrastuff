@@ -1,0 +1,10 @@
+voronoi(8, 1)
+  .mult(osc(10, 0.1, ()=>Math.sin(time) * 3).saturate(3).kaleid(222))
+  .modulate(o0, 0.69)
+  .add(o0, 0.626)
+  .scrollY(-0.0123)
+  .scale(0.99)
+  .modulate(voronoi(7,1),0.00777)
+  .luma(0.123)
+.out()
+speed = 0.123
